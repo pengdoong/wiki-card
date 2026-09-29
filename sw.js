@@ -1,7 +1,7 @@
 // The web build's service worker (see vite.config.ts), which makes it an installable PWA for the Microsoft Store.
 // The game needs its server anyway, so it keeps only the built app shell: pages come from the network first, and the
 // build's own files from the cache. The build fills in the version and the file list.
-const CACHE = 'wiki-card-mukzlvar';
+const CACHE = 'wiki-card-mulxgut6';
 const FILES = ["./","./assets/index-CDvcuYo1.css","./assets/index-BXGQrt-s.js","./assets/web-vKGTwotn.js","./manifest.webmanifest","./icon-192.png","./icon-512.png","./privacy.html"];
 
 self.addEventListener('install', (event) => {
